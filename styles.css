@@ -1,0 +1,134 @@
+html {
+    font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* body */
+body {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+/* header */
+header {
+    background-color: #288484;
+    height: 100px;
+    color: #FFC18d;
+    padding-top: 20px;
+}
+
+/* main */
+.bigBox {
+    border: 2px solid #288484;
+    padding: 10px;
+    margin-top: 10px;
+}
+h2, h3 {
+    text-align: left;
+}
+/*/ color boxes */
+.color {
+    display: inline-block;
+    width: 200px;;
+    margin: 4px 2px;
+}
+.black {
+    background-color: #000202;
+    color: #fff;
+}
+.dark {
+    background-color: #053A3A;
+    color: #fff;
+}
+.middle {
+    background-color: #288484;
+    color: #fff;
+}
+.light {
+    background-color: #74D1D1;
+    color: #000202;
+}
+.brown {
+    background-color: #603009;
+    color: #fff;
+}
+.orange {
+    background-color: #DC8843;
+    color: #fff;
+}
+.beige {
+    background-color: #FFC18D;
+    color: #000202;
+}
+
+/* Fonts */
+.font {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    margin: 4px 2px;
+}
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+.verdana.normal {
+    font-weight: 400;
+}
+.verdana .bold {
+    font-weight: 600;
+}
+.verdana.italic {
+    font-weight: 400;
+    font-style: italic;
+}
+.abril {
+    font-family: "Abril Fatface", serif;
+}
+.abril .bold {
+    font-weight: bold;
+}
+.abril .italic {
+    font-style: italic;
+}
+.worksans {
+    font-family: "Work Sans", sans-serif;
+}
+.worksans .normal {
+    font-weight: 400;
+}
+.worksans .bold {
+    font-weight: 600;
+}
+.worksans .italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Text Styles */
+.text {
+    text-align: left;
+    font-size: 20px;
+}
+.text h1 {
+    font-weight: 700;
+    font-size: 2em;
+    font-family: "Work Sans", sans-serif;
+}
+.text h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text p {
+    font-weight: 300;
+    font-size: 1em;
+    font-family: "Abril Fatface", serif;
+}
+
+/* Footer */
+footer {
+    background-color: #288484;
+    color: #FFC18d;
+    padding: 10px;
+    margin-top: 10px;
+}
